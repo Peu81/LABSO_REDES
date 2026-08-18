@@ -1,4 +1,4 @@
-## 1. Identificação
+##1. Identificação
 * **Disciplina:** Laboratório de Sistemas Operacionais e Redes (LSOR)
 * **Curso:** Bacharelado em Sistemas de Informação (BSI)
 * **Repositório:** `labredes-bsi-2026.02`
@@ -7,12 +7,12 @@
 
 ---
 
-## 2. Objetivo
+##2. Objetivo
 Como objetivos principais dessa prática estão: Entender fundamentos de virtualização para manipular VMs utilizando o VirtualBox, organizar estrutura de arquivos e realizar a instalação do Ubuntu Server com particionamento manual.
 
 ---
 
-## 3. Ambiente do Laboratório
+##3. Ambiente do Laboratório
 
 * **Computador Host:**
   * **Sistema Operacional:** Windows
@@ -27,7 +27,7 @@ Como objetivos principais dessa prática estão: Entender fundamentos de virtual
 
 ---
 
-## 4. Procedimento Realizado
+##4. Procedimento Realizado
 
 1. **Organização de Pastas:** Criação da estrutura de diretórios no host para isolamento dos arquivos da máquina virtual.
 2. **Criação da VM:** Definição dos recursos de hardware virtual no VirtualBox (previamente estabelecidos nas definições do ambiente).
@@ -41,33 +41,33 @@ Como objetivos principais dessa prática estão: Entender fundamentos de virtual
 
 ---
 
-## 5. Testes e Evidências
+##5. Testes e Evidências
 
-### 5.1. Particionamento de Disco
+###5.1. Particionamento de Disco
 Comprovação do layout de particionamento manual com as 3 divisões solicitadas (`/boot`, `/` e `swap`):
 
 ![Sumário de Partições](./imagens/01-particionamento.png)
 
-### 5.2. Primeiro Login no Servidor
+###5.2. Primeiro Login no Servidor
 Comprovação do acesso bem-sucedido no console `tty1` utilizando o usuário `administrador`:
 
 ![Login no Servidor](./imagens/02-primeiro-login.png)
 
-### 5.3. Atualização de Repositórios
+###5.3. Atualização de Repositórios
 Comprovação da saída sem erros ao executar o comando `sudo apt-get update`:
 
 ![Saída do apt-get update](./imagens/03-apt-update.png)
 
 ---
 
-## 6. Problemas Encontrados e Soluções
+##6. Problemas Encontrados e Soluções
 
 * **Problema:** Kernel Panic ao iniciar a instalação do Ubuntu Server.
 * **Solução:** Para corrigir o problema acima, foi necessário realizar a mudança no tamanho do disco virtual de 512MB (proposto pela atividade) para 2048MB.
 
 ---
 
-## 7. Conclusão
+##7. Conclusão
 Para as considerações finais, pontuo a importância do particionamento individualizado sendo capaz de garantir para o sistema uma segurança contra falhas de espaço, 
 proteção para a memória RAM (disponibilizando uma parte da memória física como região de SWAP), pouco esforço para realizar manutenções, backups e atualizações e o 
 controle de desempenho.
