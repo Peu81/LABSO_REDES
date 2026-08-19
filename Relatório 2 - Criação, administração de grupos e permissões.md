@@ -43,7 +43,7 @@ o comando 'sudo groupadd [nomeDoGrupo]', incluindo os usuários criados na etapa
 5. **Permissões de acesso (via regra Octal):** Atribuídos os controles de acesso para os usuários, incluindo o administrador, através do comando 'sudo chmod 770 [nomeDiretorio]'.
    * Nota: Os controles de acesso variam entre os usuários de acordo com o exercício ou teste proposto.
 
-6. **Arquivos de teste:** Criados os arquivos de testes 'config_redes.txt' e 'relatorio16-08.txt' para o desenvolvimento dos testes e exercício.
+6. **Arquivos de teste:** Criados os arquivos de testes 'config_redes.txt' e 'relatorio1.txt' para o desenvolvimento dos testes e exercício.
 
 ---
 
