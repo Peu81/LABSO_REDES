@@ -30,8 +30,11 @@ Como objetivos principais dessa prática estão: Entender fundamentos de virtual
 ## 4. Procedimento Realizado
 
 1. **Organização de Pastas:** Criação da estrutura de diretórios no host para isolamento dos arquivos da máquina virtual.
+
 2. **Criação da VM:** Definição dos recursos de hardware virtual no VirtualBox (previamente estabelecidos nas definições do ambiente).
+
 3. **Anexo da Mídia:** Vinculação da imagem ISO do Ubuntu Server 26.04 na controladora.
+
 4. **Instalação do SO:**
    * Definição do idioma e configuração do teclado, ignorando configurações de rede.
    * Realização do particionamento personalizado via LVM.
@@ -46,17 +49,17 @@ Como objetivos principais dessa prática estão: Entender fundamentos de virtual
 ### 5.1. Particionamento de Disco
 Comprovação do layout de particionamento manual com as 3 divisões solicitadas (`/boot`, `/` e `swap`):
 
-![Sumário de Partições](./imagens/01-particionamento.png)
+![Sumário de Partições](printsLSOR/particoes.png)
 
 ### 5.2. Primeiro Login no Servidor
 Comprovação do acesso bem-sucedido no console `tty1` utilizando o usuário `administrador`:
 
-![Login no Servidor](./imagens/02-primeiro-login.png)
+![Login no Servidor](printsLSOR/posLogin.png)
 
 ### 5.3. Atualização de Repositórios
 Comprovação da saída sem erros ao executar o comando `sudo apt-get update`:
 
-![Saída do apt-get update](./imagens/03-apt-update.png)
+![Saída do apt-get update](printsLSOR/atualizacaoPacotes.png)
 
 ---
 
