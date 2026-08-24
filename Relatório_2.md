@@ -79,3 +79,4 @@ o comando 'sudo groupadd [nomeDoGrupo]', incluindo os usuários criados na etapa
 * **Solução:** [---].
 
 ## 7. Conclusão
+Nesta prática aprendi os comandos básicos para a criação de novos usuários no sistema Linux, bem como a criação de grupos de trabalho para organização destes. Também pratiquei a criação de arquivos e pastas e comandos para a manipulação de permissões de escrita e leitura dos usuários.
